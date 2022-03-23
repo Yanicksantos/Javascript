@@ -1,5 +1,5 @@
 /**
- * JS - Aula: 5 - Calculadora Flex
+ * JS - Aula: 5 - Jogo da Lampada
  * @author: Yanick Santos
  */
 
