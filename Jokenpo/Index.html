@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jogo Jokenpo</title>
+</head>
+<body>
+    <section>
+        <h1>JS - Aula: 9 - Jogo Jokenpo</h1>
+        <h4>Jogador:</h4>
+        <img src="img/pedra.png" alt="Pedra">
+        <img src="img/papel.png" alt="Papel">
+        <img src="img/tesoura.png" alt="Tesoura">
+        <form name="frmJogo">
+            <input type="radio" name="grupo" id="pedra">Pedra
+            <input type="radio" name="grupo" id="papel">Papel
+            <input type="radio" name="grupo" id="tesoura">Tesoura
+            <br>
+            <input type="button" value="JOGAR" onclick="jogar()">
+            <input type="reset" value="RESET" onclick="reset()">
+        </form>
+        <hr>
+        <h4>Computador:</h4>
+        <img src="img/pc.png" alt="PC"><br>
+        <hr>
+    </section>
+   
+</body>
+</html>
